@@ -1,4 +1,4 @@
-//namespace SunamoCollectionsTo._sunamo.SunamoExceptions._AddedToAllCsproj;
+namespace SunamoCollectionsTo._sunamo;
 
 //namespace SunamoCollectionsTo._sunamo.SunamoExceptions._AddedToAllCsproj;
 internal class FS
