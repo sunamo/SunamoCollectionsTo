@@ -6,4 +6,9 @@ public class CATo
     {
         return t.ToList();
     }
+
+    public static T[] ToArray<T>(params T[] t)
+    {
+        return t;
+    }
 }

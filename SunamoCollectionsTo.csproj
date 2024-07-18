@@ -3,7 +3,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>24.7.16.1</Version>
+    <Version>24.7.18.1</Version>
     <Description>For easier creation and transfer of collections between each other</Description>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
@@ -12,9 +12,18 @@
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageReleaseNotes>Added method</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="_sunamo\**" />
+    <EmbeddedResource Remove="_sunamo\**" />
+    <None Remove="_sunamo\**" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="readme.md" Pack="True" PackagePath="." />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>$(DefineConstants);SunamoCollectionsTo;SunamoCollectionsTo.csproj</DefineConstants>
