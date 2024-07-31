@@ -11,4 +11,9 @@ public class CATo
     {
         return t;
     }
+
+    public static List<string> ToListString(params object[] t)
+    {
+        return t.ToList().ConvertAll(d => d.ToString());
+    }
 }
