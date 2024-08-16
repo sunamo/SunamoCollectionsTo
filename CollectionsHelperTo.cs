@@ -1,6 +1,6 @@
 ﻿namespace SunamoCollectionsTo;
 
-public class CATo
+public class CollectionsHelperTo
 {
     public static List<T> ToList<T>(params T[] t)
     {
