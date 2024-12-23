@@ -12,7 +12,7 @@ public class CollectionsHelperTo
         return t;
     }
 
-    public static List<string> ToListString(params object[] t)
+    public static List<string?> ToListString(params object[] t)
     {
         return t.ToList().ConvertAll(d => d.ToString());
     }
