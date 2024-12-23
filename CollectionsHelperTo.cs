@@ -4,7 +4,7 @@ public class CollectionsHelperTo
 {
     public static List<T> ToList<T>(params T[] t)
     {
-        return t.ToList();
+        return [.. t];
     }
 
     public static T[] ToArray<T>(params T[] t)
