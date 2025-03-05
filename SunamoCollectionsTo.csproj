@@ -19,6 +19,7 @@
     <Compile Remove="_sunamo\**" />
     <EmbeddedResource Remove="_sunamo\**" />
     <None Remove="_sunamo\**" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="*" Pack="True" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.md" Pack="True" PackagePath="." />
