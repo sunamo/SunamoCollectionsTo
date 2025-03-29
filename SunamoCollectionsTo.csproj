@@ -3,7 +3,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>24.12.23.1</Version>
+    <Version>25.3.29.1</Version>
     <Description>For easier creation and transfer of collections between each other</Description>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
@@ -12,14 +12,14 @@
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
-    <PackageReleaseNotes>Fixed compiler warnings/infos</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated nuget to latest versions</PackageReleaseNotes>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="_sunamo\**" />
     <EmbeddedResource Remove="_sunamo\**" />
     <None Remove="_sunamo\**" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="*" Pack="True" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.3" Pack="True" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.md" Pack="True" PackagePath="." />
