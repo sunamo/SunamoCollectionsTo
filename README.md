@@ -1,6 +1,6 @@
 # SunamoCollectionsTo
 
-For easier creation and transfer of collections between each other
+Provides helper methods for easier creation and conversion of collections between each other.
 
 ## Overview
 
@@ -10,11 +10,13 @@ SunamoCollectionsTo is part of the Sunamo package ecosystem, providing modular, 
 
 ### Key Classes
 
-- **CollectionsHelperTo**
+- **CollectionsHelperTo** - Static helper class for collection conversions.
 
 ### Key Methods
 
-- `ToListString()`
+- `ToList<T>(params T[])` - Converts an array of elements to a List.
+- `ToArray<T>(params T[])` - Returns the provided elements as an array.
+- `ToListString(params object[])` - Converts an array of objects to a List of strings.
 
 ## Installation
 
@@ -24,15 +26,15 @@ dotnet add package SunamoCollectionsTo
 
 ## Dependencies
 
-- **Microsoft.Extensions.Logging.Abstractions** (v9.0.3)
+- **Microsoft.Extensions.Logging.Abstractions** (v10.0.2)
 
 ## Package Information
 
 - **Package Name**: SunamoCollectionsTo
-- **Version**: 25.3.29.1
-- **Target Framework**: net9.0
+- **Version**: 26.2.23.3
+- **Target Frameworks**: net10.0, net9.0, net8.0
 - **Category**: Platform-Independent NuGet Package
-- **Source Files**: 1
+- **License**: MIT
 
 ## Related Packages
 
@@ -40,4 +42,4 @@ This package is part of the Sunamo package ecosystem. For more information about
 
 ## License
 
-See the repository root for license information.
+MIT - See the LICENSE file for details.
