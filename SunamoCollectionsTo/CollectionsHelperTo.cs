@@ -34,6 +34,6 @@ public class CollectionsHelperTo
     /// <returns>A List of strings representing each object.</returns>
     public static List<string?> ToListString(params object[] array)
     {
-        return array.ToList().ConvertAll(item => item.ToString());
+        return array.ToList().ConvertAll(element => element.ToString());
     }
 }

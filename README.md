@@ -31,7 +31,7 @@ dotnet add package SunamoCollectionsTo
 ## Package Information
 
 - **Package Name**: SunamoCollectionsTo
-- **Version**: 26.2.23.3
+- **Version**: 26.4.6.4
 - **Target Frameworks**: net10.0, net9.0, net8.0
 - **Category**: Platform-Independent NuGet Package
 - **License**: MIT
