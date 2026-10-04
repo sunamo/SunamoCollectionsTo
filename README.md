@@ -1,5 +1,10 @@
 # SunamoCollectionsTo
 
+## Short description
+
+Pomocné metody pro snadné vytváření kolekcí a převody mezi různými typy kolekcí.
+
+
 Provides helper methods for easier creation and conversion of collections between each other.
 
 ## Overview
